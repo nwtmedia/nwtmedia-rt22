@@ -1,0 +1,42 @@
+{
+  "name": "front-nwtmedia",
+  "version": "1.0.0",
+  "description": "Application that gets GIF and Images from multiple data sources",
+  "scripts": {
+    "start": "nodemon -r esm server/index.js",
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.10",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-middleware": "^5.3.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

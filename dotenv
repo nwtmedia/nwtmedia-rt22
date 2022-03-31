@@ -1,0 +1,4 @@
+# Copy this file as .env
+# After that fill in your "Giphy API key" and your "Pixabay API key"
+GIPHY_API_KEY=awesome_secret
+PIXABAY_API_KEY=awesome_secret
