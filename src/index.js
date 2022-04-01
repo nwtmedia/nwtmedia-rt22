@@ -4,11 +4,14 @@ import ReactDOM from "react-dom";
 const App = () => {
   return (
     <div>
-      <h1 style={{ "text-align": "center", margin: "20%, auto" }}>
-        "Reactivity"
-      </h1>
+      <h1 style={{ textAlign: "center", margin: "20%, auto" }}>"Reactivity"</h1>
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);

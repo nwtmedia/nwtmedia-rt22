@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Application that gets GIF and Images from multiple data sources",
   "scripts": {
-    "start": "nodemon -r esm server/index.js",
-    "dev": "webpack serve --mode=development",
+    "server": "nodemon -r esm server/index.js",
+    "start": "webpack serve --mode=development",
     "build": "webpack --mode=production",
     "test": "jest",
     "test:watch": "jest --watch"
